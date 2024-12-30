@@ -1,0 +1,32 @@
+body{
+    background: gray;
+}
+.container {
+    max-width: 500px;
+    margin: auto;
+    background-color:gray;
+}
+
+.board {
+    margin: 20px 0;
+}
+
+.boxes {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer white;
+    font-size: 24px;
+    background-color: black;
+}
+
+.boxes img {
+    width: 60%; 
+    height: auto;
+}
+
+.reset {
+    width: 150px;
+    font-size: 18px;
+}
